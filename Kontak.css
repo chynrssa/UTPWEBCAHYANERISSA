@@ -1,0 +1,7 @@
+.custom-bg {
+    background-image: linear-gradient(to bottom right, #FEF3C7, #FCE7F3, #BFDBFE);
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  

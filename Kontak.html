@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kontak</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="Kontak.css">
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body class="bg-gradient-to-br from-yellow-100 via-pink-100 to-blue-200 text-gray-800 font-sans min-h-screen relative">
+
+  <!-- Navbar -->
+  <header class="bg-white shadow sticky top-0 z-50">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+
+      <div class="flex items-center space-x-3">
+        <div class="w-10 h-10 bg-gradient-to-tr from-indigo-500 to-pink-500 rounded-full flex items-center justify-center shadow-md">
+          <span class="text-white text-lg font-bold">C</span>
+        </div>
+        <h1 class="text-2xl font-bold text-indigo-600 tracking-wide">Chynrssa</h1>
+      </div>
+
+      <nav class="space-x-6">
+        <a href="index.html" class="hover:text-indigo-600">Beranda</a>
+        <a href="Tentang.html" class="hover:text-indigo-600">Tentang</a>
+        <a href="Projek.html" class="hover:text-indigo-600">Projek</a>
+        <a href="Sertifikat.html" class="hover:text-indigo-600">Sertifikasi</a>
+        <a href="Kontak.html" class="text-indigo-600 font-semibold">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Contact Section -->
+  <section class="container mx-auto px-6 py-16">
+    <h2 class="text-3xl sm:text-4xl font-extrabold text-center text-indigo-700 mb-10">Hubungi Saya</h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
+      <!-- Contact Info (Left Side) -->
+      <div class="space-y-6">
+        <!-- Profile Picture -->
+        <div class="flex justify-center">
+          <img src="Fotodiri.jpg" alt="Foto Profil" class="rounded-full w-40 h-40 object-cover shadow-lg">
+        </div>
+        
+        <!-- Description -->
+        <div>
+          <p class="text-lg text-center text-gray-700 font-medium">Saya adalah seorang mahasiswi semester 4 yang menempuh pendidikan di Universitas Lampung, Jurusan Ilmu Komputer, Fakultas Matematika dan Ilmu Pengetahuan Alam, Angkatan 2023.</p>
+        </div>
+
+        <!-- Social Media -->
+        <div class="text-center">
+          <h3 class="text-xl font-semibold text-indigo-700 mb-4">Follow Me</h3>
+          <div class="flex justify-center space-x-6">
+            <a href="https://www.tiktok.com/@gatauniiribet?_t=ZS-8vgmqGBHxGW&_r=1" target="_blank" class="hover:scale-110 transition-transform">
+              <img src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png" alt="TikTok" width="40" class="rounded-full shadow-lg transition-all duration-300 transform hover:scale-110 hover:shadow-xl">
+            </a>
+            <a href="https://t.me/Cayy3" target="_blank" class="hover:scale-110 transition-transform">
+              <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram" width="40" class="rounded-full shadow-lg transition-all duration-300 transform hover:scale-110 hover:shadow-xl">
+            </a>
+            <a href="https://www.instagram.com/chyanrssa?igsh=d2FrcWh1YnE4NXcw" target="_blank" class="hover:scale-110 transition-transform">
+              <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram" width="40" class="rounded-full shadow-lg transition-all duration-300 transform hover:scale-110 hover:shadow-xl">
+            </a>
+            <a href="https://github.com/chynrssa" target="_blank" class="hover:scale-110 transition-transform">
+              <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" width="40" class="rounded-full shadow-lg transition-all duration-300 transform hover:scale-110 hover:shadow-xl">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Form (Right Side) -->
+      <form action="https://formsubmit.co/cahyanerissa05@gmail.com" method="POST" class="bg-gradient-to-r from-indigo-600 to-indigo-400 p-8 rounded-xl shadow-xl space-y-6 w-full max-w-lg mx-auto">
+        <input type="hidden" name="_captcha" value="false">
+        
+        <!-- Name -->
+        <div>
+          <label for="name" class="block text-sm font-medium text-white">Nama</label>
+          <input type="text" id="name" name="name" class="mt-1 w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-indigo-500 focus:border-indigo-500 text-gray-800" placeholder="Masukkan nama kamu" required>
+        </div>
+        
+        <!-- Email -->
+        <div>
+          <label for="email" class="block text-sm font-medium text-white">Email</label>
+          <input type="email" id="email" name="email" class="mt-1 w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-indigo-500 focus:border-indigo-500 text-gray-800" placeholder="Masukkan email kamu" required>
+        </div>
+        
+        <!-- Message -->
+        <div>
+          <label for="message" class="block text-sm font-medium text-white">Pesan</label>
+          <textarea id="message" name="message" rows="4" class="mt-1 w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-indigo-500 focus:border-indigo-500 text-gray-800" placeholder="Tulis pesanmu..." required></textarea>
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit" class="w-full bg-indigo-700 text-white py-2 px-4 rounded-lg hover:bg-indigo-800 transition duration-300 transform hover:scale-105">
+          Kirim Pesan
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Google Maps Section -->
+  <section class="mt-5">
+    <h4 class="mb-3 text-center text-xl font-semibold text-indigo-700">Lokasi Saya</h4>
+    <div class="relative w-full" style="padding-top: 20%; max-height: 100px;">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3641.4515892554437!2d105.19732107456319!3d-5.341502894637115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e40cfecd58c8af1%3A0x9a715bc8c60533a!2sPondok%20SUGENG%20RAWUH!5e1!3m2!1sid!2sid!4v1745144979103!5m2!1sid!2sid" style="border:0; position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-white mt-12 py-4 text-center text-gray-500 text-sm relative z-10">
+    © 2025 - Cahya Nerissa | 2317051032 | Computer Science
+  </footer>
+
+</body>
+</html>

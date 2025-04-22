@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sertifikasi</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="Sertifikat.css" />
+</head>
+<body class="bg-gradient-to-br from-yellow-100 via-pink-100 to-blue-200 text-gray-800 font-sans min-h-screen">
+
+  <!-- Navbar -->
+  <header class="bg-white shadow sticky top-0 z-50">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+
+      <div class="flex items-center space-x-3">
+        <div class="w-10 h-10 bg-gradient-to-tr from-indigo-500 to-pink-500 rounded-full flex items-center justify-center shadow-md">
+          <span class="text-white text-lg font-bold">C</span>
+        </div>
+        <h1 class="text-2xl font-bold text-indigo-600 tracking-wide">Chynrssa</h1>
+      </div>
+
+      <nav class="space-x-6">
+        <a href="index.html" class="hover:text-indigo-600">Beranda</a>
+        <a href="Tentang.html" class="hover:text-indigo-600">Tentang</a>
+        <a href="Projek.html" class="hover:text-indigo-600">Projek</a>
+        <a href="Sertifikat.html" class="text-indigo-600 font-semibold">Sertifikasi</a>
+        <a href="Kontak.html" class="hover:text-indigo-600">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Text + Filter + Sertifikat -->
+<section class="flex flex-col items-center px-6 md:px-16 py-12 space-y-10">
+  <!-- Hero Text -->
+  <div class="text-center max-w-2xl">
+    <h2 class="text-3xl md:text-4xl font-semibold leading-relaxed">
+      Create positive <span class="italic text-indigo-400">Goals</span> in your life &<br>
+      <span class="italic text-indigo-400">reach them</span> as <span class="italic text-indigo-400">happy</span> as you can.
+    </h2>
+  </div>
+
+  <!-- Filter Buttons -->
+  <div class="mt-6 flex gap-4 flex-wrap justify-center">
+    <!-- Semua -->
+      <button class="filter-btn bg-indigo-200 px-4 py-2 rounded hover:bg-green-100 active:bg-green-200 transition duration-200"  data-type="all">Semua</button>
+  
+    <!-- Kategori Ilkom -->
+      <button class="filter-btn bg-indigo-200 px-4 py-2 rounded hover:bg-green-100 active:bg-green-200 transition duration-200"  data-type="ilkom-panitia">Ilkom - Panitia</button>
+      <button class="filter-btn bg-indigo-200 px-4 py-2 rounded hover:bg-green-100 active:bg-green-200 transition duration-200"  data-type="ilkom-peserta">Ilkom - Peserta</button>
+      <button class="filter-btn bg-indigo-200 px-4 py-2 rounded hover:bg-green-100 active:bg-green-200 transition duration-200"  data-type="ilkom-anggota">Ilkom - Anggota Organisasi</button>
+  
+    <!-- Kategori Luar -->
+      <button class="filter-btn bg-indigo-200 px-4 py-2 rounded hover:bg-green-100 active:bg-green-200 transition duration-200"  data-type="luar-panitia">Luar - Panitia</button>
+      <button class="filter-btn bg-indigo-200 px-4 py-2 rounded hover:bg-green-100 active:bg-green-200 transition duration-200"  data-type="luar-peserta">Luar - Peserta</button>
+      <button class="filter-btn bg-indigo-200 px-4 py-2 rounded hover:bg-green-100 active:bg-green-200 transition duration-200"  data-type="luar-kursus">Luar - Kursus / Pelatihan</button>
+  
+    <!-- Lainnya -->
+      <button class="filter-btn bg-indigo-200 px-4 py-2 rounded hover:bg-green-100 active:bg-green-200 transition duration-200"  data-type="asdos">Asisten Dosen</button>
+  </div>
+  
+
+  <!-- Badge Count -->
+  <div class="text-sm mt-1 text-gray-600" id="badgeCount">🏅 Total Sertifikat: 0</div>
+
+    <!-- Sertifikat Baris 1 -->
+    <div class="w-full overflow-hidden hide-scrollbar mt-8">
+      <div class="scrolling-wrapper space-x-6 py-4 px-2">
+            <img src="Anggota Bansus.png" class="w-64 rounded-lg shadow-md cursor-pointer cert-img" data-type="ilkom-anggota" >
+            <img src="CSS_Ilkom.png" class="w-64 rounded-lg shadow-md cursor-pointer cert-img" data-type="ilkom-panitia" >
+            <img src="cyber_keilmuan.png" class="w-64 rounded-lg shadow-md cursor-pointer cert-img" data-type="ilkom-peserta" >
+            <img src="Digital marketing kwu (Panitia).jpg" class="w-64 rounded-lg shadow-md cursor-pointer cert-img" data-type="ilkom-panitia" >
+            <img src="Digital marketing kwu (Peserta).jpg" class="w-64 rounded-lg shadow-md cursor-pointer cert-img" data-type="ilkom-peserta" >
+            <img src="LKMMIK-TD_IlkomUnila.png" class="w-64 rounded-lg shadow-md cursor-pointer cert-img" data-type="ilkom-peserta" >
+            <img src="LKMMIK-TP_ILKOM Unila.png" class="w-64 rounded-lg shadow-md cursor-pointer cert-img" data-type="ilkom-peserta" >
+            <img src="Mastering UI_UX Desain_Himakom unila.png" class="w-64 rounded-lg shadow-md cursor-pointer cert-img" data-type="ilkom-peserta" >
+            <img src="Pelatihan Editing Video_Himakom Unila.png" class="w-64 rounded-lg shadow-md cursor-pointer cert-img" data-type="ilkom-peserta" >
+            <img src="Sertif_Asdos Logika S1.png" class="w-64 rounded-lg shadow-md cursor-pointer cert-img" data-type="asdos" >
+            <img src="showcase_ilkom panitia.png" class="w-64 rounded-lg shadow-md cursor-pointer cert-img" data-type="ilkom-panitia" >
+      </div>
+  
+    <!-- Sertifikat Baris 2 -->
+    <div class="w-full overflow-hidden hide-scrollbar mt-4">
+      <div class="scrolling-wrapper-reverse space-x-6 py-4 px-2">
+        <img src="BEM FMIPA.png" class="w-64 rounded-lg shadow-md cursor-pointer cert-img" data-type="luar-peserta" >
+        <img src="data analytic.png" class="w-64 rounded-lg shadow-md cursor-pointer cert-img" data-type="panitia" >
+        <img src="FORMANDIBULA_FKIP.png" class="w-64 rounded-lg shadow-md cursor-pointer cert-img" data-type="luar-peserta" >
+        <img src="Himagro_Polinela.png" class="w-64 rounded-lg shadow-md cursor-pointer cert-img" data-type="luar-peserta" >
+        <img src="islamic national competition.png" class="w-64 rounded-lg shadow-md cursor-pointer cert-img" data-type="luar-peserta" >
+        <img src="Kelas Ilmiah(PKM)_UKMSUSAINTEK_Unila.png" class="w-64 rounded-lg shadow-md cursor-pointer cert-img" data-type="luar-peserta" >
+        <img src="Myskill Pivot Table.png" class="w-64 rounded-lg shadow-md cursor-pointer cert-img" data-type="luar-kursus" >
+        <img src="myskill_backend_development.png" class="w-64 rounded-lg shadow-md cursor-pointer cert-img" data-type="luar-kursus" >
+        <img src="PKM Unila.png" class="w-64 rounded-lg shadow-md cursor-pointer cert-img" data-type="luar-peserta" >
+        <img src="SEEDS_FKIP_Unila.png" class="w-64 rounded-lg shadow-md cursor-pointer cert-img" data-type="luar-peserta" >
+        <img src="skillvul.png" class="w-64 rounded-lg shadow-md cursor-pointer cert-img" data-type="luar-peserta" >
+    </div>
+</section>
+
+  <!-- Modal -->
+  <div id="modal" class="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center hidden z-50">
+    <div class="relative">
+      <img id="modalImage" class="max-w-full max-h-[70vh] object-contain mx-auto rounded-lg shadow-lg" />
+      <a id="downloadBtn" download class="absolute bottom-2 left-2 bg-white text-sm px-2 py-1 rounded shadow">Download</a>
+      <button onclick="closeModal()" class="absolute top-2 right-2 bg-white text-gray-800 px-3 py-1 rounded-full shadow">X</button>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-white mt-12 py-4 text-center text-gray-500 text-sm relative z-10">
+    © 2025 - Cahya Nerissa | 2317051032 | Computer Science
+  </footer>
+
+  <script src="Sertifikat.js"></script>
+</body>
+</html>

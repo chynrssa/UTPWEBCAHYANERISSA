@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tentang Saya</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="Tentang.css">
+</head>
+
+<body class="bg-gradient-to-br from-yellow-100 via-pink-100 to-blue-200 text-gray-800 font-sans min-h-screen relative">
+
+  <!-- SVG dekoratif kiri atas -->
+  <div class="absolute top-6 left-6 opacity-20 w-16 h-16 z-0">
+    <svg viewBox="0 0 24 24" fill="none" class="w-full h-full" xmlns="http://www.w3.org/2000/svg">
+      <path d="M8 12L3 8v8l5-4zM16 12l5 4V8l-5 4zM12 4v16" stroke="#4f46e5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </div>
+
+  <!-- Navbar -->
+  <header class="bg-white shadow sticky top-0 z-50">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+
+      <div class="flex items-center space-x-3">
+        <div class="w-10 h-10 bg-gradient-to-tr from-indigo-500 to-pink-500 rounded-full flex items-center justify-center shadow-md">
+          <span class="text-white text-lg font-bold">C</span>
+        </div>
+        <h1 class="text-2xl font-bold text-indigo-600 tracking-wide">Chynrssa</h1>
+      </div>
+
+      <nav class="space-x-6">
+        <a href="index.html" class="hover:text-indigo-600">Beranda</a>
+        <a href="Tentang.html" class="text-indigo-600 font-semibold">Tentang</a>
+        <a href="Projek.html" class="hover:text-indigo-600">Projek</a>
+        <a href="Sertifikat.html" class="hover:text-indigo-600">Sertifikasi</a>
+        <a href="Kontak.html" class="hover:text-indigo-600">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="container mx-auto px-6 py-12 text-center relative z-10 gradient-background">
+    <img src="Fotodiri.jpg" alt="Foto Profil" class="mx-auto rounded-full w-40 h-40 object-cover shadow-md mb-6">
+    <h2 class="text-3xl font-bold text-indigo-700 mb-4">Halo, Saya Cahya Nerissa</h2>
+    <p class="text-lg text-gray-700 max-w-6xl mx-auto">
+      Halo! Nama saya Cahya Nerissa, seorang mahasiswi yang aktif dan antusias dalam dunia pengembangan web serta desain UI/UX. 
+      Saya percaya bahwa teknologi yang dirancang dengan baik bisa menjadi jembatan antara kebutuhan manusia dan solusi digital yang efektif.
+      Perjalanan saya di dunia pemrograman dimulai sejak awal kuliah, dan sejak itu saya terus belajar dan mengasah keterampilan, terutama dalam HTML, CSS, dan JavaScript. (EHEHEEH)
+      ,saya juga memiliki ketertarikan yang kuat pada dunia Internet of Things (IoT), 
+      komunikasi data, dan jaringan komputer. karena saya percaya bahwa konektivitas dan integrasi perangkat adalah kunci masa depan teknologi.
+      Di luar itu, saya aktif di Himpunan Mahasiswa Komputer (HIMAKOM), tempat saya mengembangkan kemampuan organisasi, 
+      kolaborasi, serta kepemimpinan. Saya juga suka membaca, menulis, dan menjelajahi dunia digital untuk terus memperbarui pengetahuan.
+      Saya selalu terbuka untuk berdiskusi, belajar hal baru, dan berkolaborasi dengan siapa pun yang memiliki semangat untuk tumbuh dan berkarya bersama!
+    </p>
+  </section>
+
+  <!-- Info Boxes -->
+  <section class="container mx-auto px-6 py-8 grid grid-cols-1 md:grid-cols-3 gap-6 relative z-10">
+    <div class="bg-white p-6 rounded-xl shadow-md text-left hover:shadow-lg hover:bg-blue-100 active:bg-blue-200 transition duration-300">
+      <h3 class="text-xl font-semibold text-indigo-600 mb-2">Pendidikan</h3>
+      <ul class="list-disc list-inside space-y-1 text-gray-700">
+        <li>SD Negeri 1 Natar (Juli 2011 - Juni 2017)</li>
+        <li>SMP Negeri 22 Bandar Lampung (Juli 2017 - Juli 2020)</li>
+        <li>Matematika dan Ilmu Pengetahuan Alam - SMA Negeri 1 Natar (Juli 2020 - Mei 2023)</li>
+        <li>S1 Ilmu Komputer - Universitas Lampung (2023 - sekarang)</li>
+      </ul>
+    </div>
+    
+    <!--Pengalaman-->
+    <div class="bg-white p-6 rounded-xl shadow-md text-left hover:shadow-lg hover:bg-blue-100 active:bg-blue-200 transition duration-300">
+      <h3 class="text-xl font-semibold text-indigo-600 mb-2">Pengalaman</h3>
+      <ul class="list-disc list-inside space-y-1 text-gray-700">
+        <li>Asisten Dosen Mata Kuliah Logika (2024)</li>
+        <li>Anggota Badan Khusus di Organisasi Himakom (2024)</li>
+        <li>Bendahara Biro Kewirausahaan di Organisasi Himakom (2025 - Sekarang)</li>
+      </ul>
+    </div>
+    
+    <div class="bg-white p-6 rounded-xl shadow-md text-left hover:shadow-lg hover:bg-blue-100 active:bg-blue-200 transition duration-300">
+      <h3 class="text-xl font-semibold text-indigo-600 mb-2">Hobi</h3>
+      <ul class="list-disc list-inside space-y-1 text-gray-700">
+        <li>Bernyanyi</li>
+        <li>Desain UI</li>
+        <li>Coding (HEMMMM)</li>
+        <li>Menulis</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-white mt-12 py-4 text-center text-gray-500 text-sm relative z-10">
+    © 2025 - Cahya Nerissa | 2317051032 | Computer Science
+  </footer>
+
+  <!-- SVG dekoratif kanan bawah -->
+  <div class="absolute bottom-6 right-6 opacity-20 w-16 h-16 z-0">
+    <svg viewBox="0 0 24 24" fill="none" class="w-full h-full" xmlns="http://www.w3.org/2000/svg">
+      <path d="M16 18l6-6-6-6M8 6l-6 6 6 6" stroke="#ec4899" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </div>
+
+</body>
+</html>

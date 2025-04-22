@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projek Saya</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gradient-to-br from-yellow-100 via-pink-100 to-blue-200 text-gray-800 font-sans min-h-screen">
+
+  <!-- Navbar -->
+  <header class="bg-white shadow sticky top-0 z-50">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+
+      <div class="flex items-center space-x-3">
+        <div class="w-10 h-10 bg-gradient-to-tr from-indigo-500 to-pink-500 rounded-full flex items-center justify-center shadow-md">
+          <span class="text-white text-lg font-bold">C</span>
+        </div>
+        <h1 class="text-2xl font-bold text-indigo-600 tracking-wide">Chynrssa</h1>
+      </div>
+
+      <nav class="space-x-6">
+        <a href="index.html" class="hover:text-indigo-600">Beranda</a>
+        <a href="Tentang.html" class="hover:text-indigo-600">Tentang</a>
+        <a href="Projek.html" class="text-indigo-600 font-semibold">Projek</a>
+        <a href="Sertifikat.html" class="hover:text-indigo-600">Sertifikasi</a>
+        <a href="Kontak.html" class="hover:text-indigo-600">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Projects Section -->
+  <section class="container mx-auto px-6 py-16">
+    <h2 class="text-3xl sm:text-4xl font-extrabold text-center text-indigo-700 mb-12">Koleksi Projek</h2>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+      <!-- Project Card Website Portofolio-->
+      <div class="bg-white p-6 rounded-xl shadow-md text-left hover:shadow-lg hover:bg-blue-100 active:bg-blue-200 transition duration-300">
+        <img src="webPortofolio.png" alt="Project 1" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h3 class="text-xl font-semibold text-indigo-700 mb-2">Website Portofolioku</h3>
+          <p class="text-gray-600 text-sm">Web portofolio ini dibuat sebagai media personal branding untuk menampilkan identitas, keterampilan, dan hasil karya saya sebagai mahasiswa Ilmu Komputer yang antusias dalam pengembangan web, desain UI/UX, serta terbuka terhadap eksplorasi dunia data dan teknologi.</p>
+        </div>
+      </div>
+
+      <!-- Project Card Suara Kampus -->
+     <div class="bg-white p-6 rounded-xl shadow-md text-left hover:shadow-lg hover:bg-blue-100 active:bg-blue-200 transition duration-300">
+        <img src="SuaraKampus.png" alt="Project 2" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h3 class="text-xl font-semibold text-indigo-700 mb-2">Suara Kampus</h3>
+          <p class="text-gray-600 text-sm">Sistem Website SUARA KAMPUS atau bisa juga disebut dengan aplikasi VoteGuardChain yang bertujuan untuk mempermudah mahasiswa  dalam melakukan pemilihan umum yang ada dikampus seperti pemilihan pemimpin organisasi atau UKM lainnya secara online. Sistem ini dapat digunakan diseluruh universitas yang ada di Indonesia.</p>
+        </div>
+      </div>
+
+      <!-- Project Card Mediora-->
+     <div class="bg-white p-6 rounded-xl shadow-md text-left hover:shadow-lg hover:bg-blue-100 active:bg-blue-200 transition duration-300">
+        <img src="Mediora.png" alt="Project 3" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h3 class="text-xl font-semibold text-indigo-700 mb-2">Mediora</h3>
+          <p class="text-gray-600 text-sm">MEDIORA (Medicine Easy Delivery, Innovative Online Retail for All). MEDIORA sendiri adalah sebuah sistem informasi berbasis web yang dirancang untuk memfasilitasi pemesanan obat secara online dan pengiriman langsung ke alamat pengguna melalui jaringan apotek mitra di seluruh Lampung. Sistem ini bertujuan untuk memberikan kemudahan, kecepatan, dan keamanan dalam memperoleh obat-obatan, terutama bagi masyarakat yang membutuhkan akses cepat dan terjamin kualitasnya.
+          </p>
+        </div>
+      </div>
+
+      <!-- Project Card Komunikasi data dan Jaringan Komputer-->
+      <div class="bg-white p-6 rounded-xl shadow-md text-left hover:shadow-lg hover:bg-blue-100 active:bg-blue-200 transition duration-300">
+        <img src="UAP_Komdat.png" alt="Project 3" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h3 class="text-xl font-semibold text-indigo-700 mb-2">Komunikasi Data dan Jaringan Komputer</h3>
+          <p class="text-gray-600 text-sm"> Ini merupakan proyek Ujian Akhir Praktikum (UAP) yang tidak hanya menampilkan identitas dan hasil karya saya, tetapi juga mendokumentasikan pencapaian saya dalam menyusun jaringan sebanyak 120 PC yang terhubung ke router dan switch, melebihi ketentuan minimal sebanyak 100 PC yang ditugaskan.
+          </p>
+        </div>
+      </div>
+
+      <!-- Project Card Internet of Things-->
+      <div class="bg-white p-6 rounded-xl shadow-md text-left hover:shadow-lg hover:bg-blue-100 active:bg-blue-200 transition duration-300">
+        <img src="UTP_IOT.png" alt="Project 3" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h3 class="text-xl font-semibold text-indigo-700 mb-2">Internet of Things</h3>
+          <p class="text-gray-600 text-sm"> Ini merupakan proyek studi kasus Ujian Tengah Praktikum (UTP) yang bertujuan untuk memantau kondisi suhu kandang ayam dalam tiga kategori, yaitu normal, waspada, dan bahaya. Ketika suhu mencapai kondisi bahaya, sistem akan secara otomatis mengirimkan notifikasi melalui Blynk, Gmail, dan Telegram sebagai bentuk peringatan dini.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-white mt-12 py-4 text-center text-gray-500 text-sm relative z-10">
+    © 2025 - Cahya Nerissa | 2317051032 | Computer Science
+  </footer>
+
+</body>
+</html>

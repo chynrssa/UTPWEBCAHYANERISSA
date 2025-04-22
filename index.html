@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Beranda - Cahya Nerissa</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="Beranda.css" />
+</head>
+<body class="custom-body">
+
+  <!-- Navbar -->
+  <header class="custom-header">
+    <div class="container">
+      <div class="header-left">
+        <div class="logo-circle">
+          <span class="logo-text">C</span>
+        </div>
+        <h1 class="brand-name">Chynrssa</h1>
+      </div>
+      <nav class="nav-links">
+        <a href="index.html" class="text-indigo-600 font-semibold">Beranda</a>
+        <a href="Tentang.html" class="hover:text-indigo-600">Tentang</a>
+        <a href="Projek.html" class="hover:text-indigo-600">Projek</a>
+        <a href="Sertifikat.html" class="hover:text-indigo-600">Sertifikasi</a>
+        <a href="Kontak.html" class="hover:text-indigo-600">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div>
+      <h2 class="hero-title">Hai, saya <span class="highlight">Cahya Nerissa</span></h2>
+      <p class="hero-desc">
+        Saya adalah seorang mahasiswi semester 4 yang menempuh pendidikan di <span class="bold-highlight">Universitas Lampung</span>, Jurusan <span class="bold-highlight">Ilmu Komputer</span>, fakultas <span class="bold-highlight">Matematika dan Ilmu Pengetahuan Alam</span>, angkatan <span class="bold-highlight">2023</span>. Saya senang menciptakan pengalaman digital yang menyenangkan dan bermakna.
+      </p>
+      <a href="Tentang.html" class="cta-button">Kenali Saya Lebih Jauh</a>
+    </div>
+
+    <!-- Kartu Profil -->
+    <div class="profile-card">
+      <div class="card">
+        <img src="Fotodiri.jpg" alt="Foto Profil" class="profile-img" onclick="openImageModal(this.src)" />
+        <h3 class="profile-name">Cahya Nerissa</h3>
+        <p class="profile-desc">Computer Science | 2317051032</p>
+        <div class="social-icons">
+          <a href="https://www.youtube.com/@cahyanerissa9845" target="_blank" class="text-red-500 hover:text-red-700">
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M19.615 3.184A2.985 2.985 0 0 0 17.615 3H6.385a2.985 2.985 0 0 0-2 0C2.973 3.353 2.01 4.361 2.01 6.174v11.652c0 1.813.963 2.82 2.375 2.99.446.064 1.272.087 2.376.087h11.23c1.104 0 1.93-.023 2.376-.087 1.412-.17 2.375-1.177 2.375-2.99V6.174c0-1.813-.963-2.82-2.375-2.99zM9.545 15.568V8.432l6.09 3.568-6.09 3.568z"/>
+            </svg>
+          </a>
+          <a href="https://github.com/chynrssa" target="_blank" class="text-indigo-500 hover:text-indigo-700">
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.603-3.369-1.342-3.369-1.342-.454-1.155-1.11-1.463-1.11-1.463-.909-.621.069-.609.069-.609 1.004.07 1.533 1.032 1.533 1.032.893 1.53 2.341 1.088 2.91.833.092-.647.35-1.088.637-1.338-2.221-.253-4.555-1.112-4.555-4.947 0-1.092.39-1.985 1.029-2.683-.103-.254-.446-1.272.098-2.65 0 0 .84-.269 2.75 1.026A9.563 9.563 0 0 1 12 6.844c.85.004 1.706.115 2.504.338 1.909-1.295 2.748-1.026 2.748-1.026.545 1.378.202 2.396.1 2.65.64.698 1.028 1.591 1.028 2.683 0 3.844-2.337 4.691-4.566 4.939.359.31.678.921.678 1.855 0 1.338-.012 2.418-.012 2.747 0 .267.18.578.688.48A10.013 10.013 0 0 0 22 12c0-5.523-4.477-10-10-10z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Highlight Section -->
+  <section class="portfolio">
+    <h3 class="section-title">Eksplorasi Portofolio</h3>
+    <div class="portfolio-grid">
+      <!-- Tentang -->
+      <div class="portfolio-card">
+        <h4 class="card-title">Tentang Saya</h4>
+        <p>Kenali latar belakang, pendidikan, dan passion saya.</p>
+        <a href="Tentang.html" class="card-link">Lihat Selengkapnya →</a>
+      </div>
+      <!-- Projek -->
+      <div class="portfolio-card">
+        <h4 class="card-title">Projek</h4>
+        <p>Kumpulan proyek nyata & hasil eksplorasi teknologi saya.</p>
+        <a href="Projek.html" class="card-link">Lihat Projek →</a>
+      </div>
+      <!-- Sertifikasi -->
+      <div class="portfolio-card">
+        <h4 class="card-title">Sertifikasi</h4>
+        <p>Berbagai pelatihan & pengalaman bersertifikat yang saya ikuti.</p>
+        <a href="Sertifikat.html" class="card-link">Lihat Sertifikat →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <h3 class="cta-title">Siap Bekerja Sama?</h3>
+    <p class="cta-text">Saya terbuka untuk proyek freelance, kolaborasi, maupun internship. Ayo kita diskusikan ide hebatmu!</p>
+    <a href="Kontak.html" class="cta-link">Hubungi Saya</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    © 2025 - Cahya Nerissa | 2317051032 | Computer Science
+  </footer>
+
+  <!-- Modal Gambar -->
+  <div id="imageModal" class="image-modal">
+    <div class="modal-content">
+      <img id="modalImage" src="" class="modal-img" alt="Foto Diperbesar" />
+      <button onclick="closeImageModal()" class="modal-close">✕</button>
+    </div>
+  </div>
+
+  <script src="Beranda.js"></script>
+</body>
+</html>
